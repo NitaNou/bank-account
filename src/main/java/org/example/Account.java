@@ -1,4 +1,6 @@
 package org.example;
 
-public abstract class Account extends IBaseRate {
+public abstract class Account implements IBaseRate {
+
+
 }
