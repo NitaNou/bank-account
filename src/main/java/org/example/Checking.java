@@ -2,8 +2,8 @@ package org.example;
 
 public class Checking extends Account{
 
-    int debitCardNum;
-    int debtCardPIN;
+    private int debitCardNum;
+    private int debtCardPIN;
 
     public Checking(String name, String SSN, double initialDeposit) {
         super(name, SSN, initialDeposit);
