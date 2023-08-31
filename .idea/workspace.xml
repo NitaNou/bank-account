@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0138546-2ebc-4d6e-9980-9a57e63dafd3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BankAccountApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BankAccountApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Checking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Checking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Savings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Savings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/CSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/CSV.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>

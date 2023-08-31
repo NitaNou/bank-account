@@ -1,0 +1,6 @@
+Mary Lou,444102638,Savings,1000
+Marybeth Sanders,431551383,Checking,2500
+Hattie Storey,476687875,Checking,3500
+Hilary Ward,005965723,Checking,3500
+Luella Bradbury,217512645,Savings,1500
+Frankie Davidson,002607927,Checking,10000
