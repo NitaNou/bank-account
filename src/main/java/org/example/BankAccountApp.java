@@ -21,10 +21,18 @@ public class BankAccountApp {
         String path = "/Users/benita.nou/Projects/bank-account/src/main/resources/NewBankAccounts.txt";
         List<String[]> dataSet = CSV.read(path);
         for (String[] accountHolder : dataSet) {
-            System.out.println(accountHolder[0]);
-            System.out.println(accountHolder[1]);
-            System.out.println(accountHolder[2]);
-            System.out.println(accountHolder[3]);
+            String name = accountHolder[0];
+            String SSN = accountHolder[1];
+            String accountType = accountHolder[2];
+            double initialDeposit = Double.parseDouble(accountHolder[3]);
+            //System.out.println(name + " " + SSN + " " + accountType + " $" + initialDeposit);
+            if (accountType.equals("Savings")) {
+                System.out.println("OPEN A SAVINGS ACCOUNT");
+            } else if (accountType.equals("Checking")) {
+                System.out.println("OPEN A CHECKING ACCOUNT");
+            } else {
+                System.out.println("ERROR READING ACCOUNT TYPE");
+            }
         }
 
 
