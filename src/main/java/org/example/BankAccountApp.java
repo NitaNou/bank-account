@@ -7,16 +7,7 @@ import java.util.List;
 
 public class BankAccountApp {
     public static void main(String[] args) {
-
-        /*
-        Checking checkingAccount1 = new Checking("Charlie Bucket", "123456789", 2000);
-        Savings savingsAccount1 = new Savings("Charlie Bucket", "987654321", 1000);
-        checkingAccount1.showInfo();
-        checkingAccount1.compound();
-        System.out.println("*************************");
-        savingsAccount1.showInfo();
-        savingsAccount1.compound();
-         */
+        List<Account> accounts = new LinkedList<>();
 
         String path = "/Users/benita.nou/Projects/bank-account/src/main/resources/NewBankAccounts.txt";
         List<String[]> dataSet = CSV.read(path);
@@ -25,16 +16,19 @@ public class BankAccountApp {
             String SSN = accountHolder[1];
             String accountType = accountHolder[2];
             double initialDeposit = Double.parseDouble(accountHolder[3]);
-            //System.out.println(name + " " + SSN + " " + accountType + " $" + initialDeposit);
             if (accountType.equals("Savings")) {
-                System.out.println("OPEN A SAVINGS ACCOUNT");
+                accounts.add(new Savings(name, SSN, initialDeposit));
             } else if (accountType.equals("Checking")) {
-                System.out.println("OPEN A CHECKING ACCOUNT");
+                accounts.add(new Checking(name, SSN, initialDeposit));
             } else {
                 System.out.println("ERROR READING ACCOUNT TYPE");
             }
         }
 
+        for (Account acct : accounts) {
+            System.out.println("**************************");
+            acct.showInfo();
+        }
 
     }
 }
